@@ -13,3 +13,18 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
+
+/* 通常のテキスト */
+#text {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.5s ease-in-out;
+}
+
+/* 変更後のテキスト（赤色にする） */
+.changed {
+    color: red !important;  /* 変更を強制適用 */
+    font-weight: bold;  /* 文字を太くして強調 */
+}
+
+
